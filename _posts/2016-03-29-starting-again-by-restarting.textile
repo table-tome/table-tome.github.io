@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Starting Again by Restarting
-date: 29 Mar 2016
 author: Jon Wrona
 github: jonwrona
 ---
@@ -25,4 +24,4 @@ I have accomplished none of these so far (maybe cleaner code). My excuse is that
 
 So I'm starting again, by restarting... wish me luck, and hopefully I get more help!
 
--- _{{ page.author }} ("github@{{ page.github }}":https://github.com/{{ page.github }})_
+p(meta). -- _{{ page.author }} ("github@{{ page.github }}":https://github.com/{{ page.github }})_

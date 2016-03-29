@@ -1,14 +1,13 @@
 ---
 layout: post
 title: Title of Post
-date: 1 Jan 2016
 author: AUTHOR NAME
 github: GITHUB-USERNAME
 ---
 
 h1. {{ page.title }}
 
-p(meta). 1 Jan 2016 - Location (if applicable)
+p(meta). {{ page.date | date_to_string }}
 
 Blog post starts here!
 
@@ -28,4 +27,4 @@ Recusandae nemo blanditiis voluptatem iusto qui dolor adipisci. Eius iusto rerum
 
 Est animi assumenda enim eum soluta doloremque. Quasi dolorem dolore laudantium eius ratione molestias consectetur. Nostrum dolores quisquam adipisci quam dolores est commodi. Temporibus et accusamus quod pariatur.
 
--- _{{ page.author }} ("github@{{ page.github }}":https://github.com/{{ page.github }})_
+p(meta). -- _{{ page.author }} ("github@{{ page.github }}":https://github.com/{{ page.github }})_
