@@ -1,2 +1,5 @@
+name: The Table Tome Blog
+url: https://blog.tabletome.com
+
 markdown: kramdown
 highlighter: rouge
