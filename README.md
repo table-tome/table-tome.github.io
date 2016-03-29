@@ -1,5 +1,7 @@
 # The Table Tome Blog
 
-A blog for table tome.
+A blog for Table Tome developers to share their endeavours.
 
-https://www.dropbox.com/request/llvsrI6z5tqWCSyl9OcY
+## Contributing
+
+To contribute to the blog, visit [this](https://github.com/table-tome/blog-posts) repository!
