@@ -2,16 +2,19 @@
 layout: post
 title: Title of Post
 author: AUTHOR NAME
-github: GITHUB-USERNAME
+# if you don't have a github account or you do not wish to share it
+#  leave the next line out
+github: GITHUB_USERNAME
 ---
 
-h1. {{ page.title }}
+# {{ page.title }}
 
-p(meta). {{ page.date | date_to_string }}
+{{ page.date | date_to_string }}
+{: .meta}
 
 Blog post starts here!
 
-"Link title":https://tabletome.com is a link!
+[Link Title](#) is a link!
 
 *This text is bold.*
 
@@ -27,4 +30,5 @@ Recusandae nemo blanditiis voluptatem iusto qui dolor adipisci. Eius iusto rerum
 
 Est animi assumenda enim eum soluta doloremque. Quasi dolorem dolore laudantium eius ratione molestias consectetur. Nostrum dolores quisquam adipisci quam dolores est commodi. Temporibus et accusamus quod pariatur.
 
-p(meta). -- _{{ page.author }} ("github@{{ page.github }}":https://github.com/{{ page.github }})_
+-- _{{ page.author }}_ {% if page.github %}_([github@{{ page.github }}](https://github.com/{{ page.github }}))_{% endif %}
+{: .meta}
